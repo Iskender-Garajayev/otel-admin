@@ -1,0 +1,22 @@
+{
+  "name": "otel",
+  "version": "1.0.0",
+  "description": "MERN OTEL control panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server"
+  },
+  "author": "Iskender Garajayev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iskender-G/otel-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iskender-G/otel-admin/issues"
+  },
+  "homepage": "https://github.com/Iskender-G/otel-admin#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
