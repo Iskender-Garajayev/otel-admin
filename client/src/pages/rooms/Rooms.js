@@ -60,7 +60,7 @@ const Rooms = () => {
             </div>
             <div className=" card-red" >
               <MoreVertOutlinedIcon className="card-menu" />
-              <span>09</span>
+              <span>010</span>
               <AddOutlinedIcon className="card-add"/>
             </div>
             <div className=" card-yellow" >
