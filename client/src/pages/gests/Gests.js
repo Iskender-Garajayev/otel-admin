@@ -13,18 +13,6 @@ const Gests = () => {
       <div className="homecontainer">
         <Navbar />
         <div className="gest-containet">
-{/* <<<<<<< HEAD
-          <div>
-            {userdata.map(userdata=>(
-              <div>
-              <span> {userdata.room_number}</span>
-              <span> {userdata.user_id}</span>
-              <span> {userdata.name}</span>
-              <span> {userdata.surname}</span>
-              <span> {userdata.phone_number}</span>
-              <span> {userdata.price}TL </span>
-              </div>
-======= */}
           <Table className="paleBlueRows" >
           <thead>
                     <tr>
