@@ -3,7 +3,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import userdata from "../../components/userdata/userdata";
 import Table from "react-bootstrap/Table";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './gests.css'
 
 const Gests = () => {
   return (
@@ -42,7 +43,7 @@ const Gests = () => {
               <>
                   <tbody>
                     <tr>
-                      <td className=""> {userdata.room_number}</td>
+                      <td className="td"> {userdata.room_number}</td>
                       <td className="td"> {userdata.user_id}</td>
                       <td className="td"> {userdata.name}</td>
                       <td className="td"> {userdata.surname}</td>
