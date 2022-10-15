@@ -42,13 +42,13 @@ const Gests = () => {
               <>
                   <tbody>
                     <tr>
-                      <td> {userdata.room_number}</td>
-                      <td> {userdata.user_id}</td>
-                      <td> {userdata.name}</td>
-                      <td> {userdata.surname}</td>
-                      <td> {userdata.phone_number}</td>
-                      <td> {userdata.price} TL</td>
-                      <td> Cash </td>
+                      <td className=""> {userdata.room_number}</td>
+                      <td className="td"> {userdata.user_id}</td>
+                      <td className="td"> {userdata.name}</td>
+                      <td className="td"> {userdata.surname}</td>
+                      <td className="td"> {userdata.phone_number}</td>
+                      <td className="td"> {userdata.price} TL</td>
+                      <td className="td"> Cash </td>
                     </tr>
                   </tbody>
               </>
