@@ -3,7 +3,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import userdata from "../../components/userdata/userdata";
 import Table from "react-bootstrap/Table";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './gests.css'
 
 const Gests = () => {
   return (
@@ -12,18 +13,6 @@ const Gests = () => {
       <div className="homecontainer">
         <Navbar />
         <div className="gest-containet">
-{/* <<<<<<< HEAD
-          <div>
-            {userdata.map(userdata=>(
-              <div>
-              <span> {userdata.room_number}</span>
-              <span> {userdata.user_id}</span>
-              <span> {userdata.name}</span>
-              <span> {userdata.surname}</span>
-              <span> {userdata.phone_number}</span>
-              <span> {userdata.price}TL </span>
-              </div>
-======= */}
           <Table className="paleBlueRows" >
           <thead>
                     <tr>
@@ -42,13 +31,13 @@ const Gests = () => {
               <>
                   <tbody>
                     <tr>
-                      <td> {userdata.room_number}</td>
-                      <td> {userdata.user_id}</td>
-                      <td> {userdata.name}</td>
-                      <td> {userdata.surname}</td>
-                      <td> {userdata.phone_number}</td>
-                      <td> {userdata.price} TL</td>
-                      <td> Cash </td>
+                      <td className="td"> {userdata.room_number}</td>
+                      <td className="td"> {userdata.user_id}</td>
+                      <td className="td"> {userdata.name}</td>
+                      <td className="td"> {userdata.surname}</td>
+                      <td className="td"> {userdata.phone_number}</td>
+                      <td className="td"> {userdata.price} TL</td>
+                      <td className="td"> Cash </td>
                     </tr>
                   </tbody>
               </>
